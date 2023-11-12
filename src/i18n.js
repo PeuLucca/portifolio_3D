@@ -1,0 +1,156 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+const resources = {
+  en: {
+    translation: {
+      ola: "Hi, I'm",
+      nome: "Pedro",
+      coder: "Dev",
+      subtitle_1: "I develop user-friendly web, desktop",
+      subtitle_2: "and mobile applications",
+      translate: "Translate",
+      about: "About",
+      work: "Work",
+      contact: "Contact",
+      introduction: "Introduction",
+      overview: "Overview.",
+      about_me: "I'm a skilled software developer since the age of 13 years old, with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+      web_development: "Web Development",
+      mobile_development: "Mobile Development",
+      react_development: "React Development",
+      desktop_apps_development: "Desktop Development",
+      done_so_far: "What I have done so far",
+      work_experience: "Work Experience.",
+      // ifsp
+      ifsp_tools: "PHP, HTML/CSS",
+      ifsp_points_1: "Developing web applications using PHP and web related technologies.",
+      ifsp_points_2: "Collaborating with cross-functional teams, with front-end, back-end and other developers to create high-quality product.",
+      ifsp_points_3: "Participating in code reviews and providing constructive feedback to other developers.",
+      // mobile
+      mobile_tools: "Android Mobile App",
+      mobile_points_1: "Developing an Android app with over +1000 downloads, featuring note functionalities.",
+      mobile_points_2: "Completing my first freelance project, successfully publishing it on the Play Store.",
+      mobile_points_3: "Gained a deep understanding of various methodologies and coding techniques through the development process (game changer project).",
+      // superior
+      superior_tools: "React.js Development",
+      superior_points_1: "Developing new features and screens for Vantage system.",
+      superior_points_2: "Implementing bug fixes following technical guidelines.",
+      superior_points_3: "Collaborating closely with the development team for efficient code integration.",
+      superior_points_4: "Also improving mobile systems (react-native)",
+      //dentist
+      dentist_tools: "React.js + Node.js",
+      dentist_points_1: "Dental clinic management system using the best tools available in the market.",
+      dentist_points_2: "Utilization of AWS servers and its complexities",
+      dentist_points_3: "Implementation of agile work methodologies with sprints and well-organized tasks among team members",
+      my_work: "My Work",
+      projects: "Projects.",
+      work_text: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      // library
+      library_name: "Library Loan System",
+      library_description: "Full-stack web application that allows user to rent books to different members of the system. Using React.js, Node.js, Xampp and Sql",
+      // terraverde
+      terraverde_name: "Improvement of TerraVerde website",
+      terraverde_description: "Creating of a more modern website for the John Deere brand, using React, Javascript and Styled-Components",
+      // spotify
+      spotify_name: "Spofity Clone",
+      spotify_description: "Creating a spotify clone of the 2020 version of the music streaming service. Using mainly HTMl, CSS.",
+      get_in_touch: "GET IN TOUCH",
+      contact_: "Contact.",
+      your_name: "Your Name",
+      your_name_placeholder: "Type your full name",
+      your_email: "Your email",
+      your_email_placeholder: "What's your email address?",
+      your_message: "Your Message",
+      your_message_placeholder: "What do you want to say?",
+      send: "Send",
+      sending: "Sending...",
+      feedback_react: "React is by far preferred technology for its versatility and strong community support, its efficiency and intuitive design elevate the development process consistently.",
+      feedback_javascript: "JavaScript has won my programming heart with its dynamic flair and great usability.",
+      feedback_mobile: "Mobile coding appeals to me for its practical challenges, the artistry involved in creating sleek interfaces, and the supportive community atmosphere.",
+      favorite_tech: "My favorites technologies",
+      personal: "Personal.",
+    },
+
+  },
+  pt: {
+    translation: {
+        ola: "Olá, sou",
+        nome: "Pedro",
+        coder: "Dev",
+        subtitle_1: "Eu crio aplicativos web, desktop",
+        subtitle_2: "e mobile, com interfaces amigáveis",
+        translate: "Traduzir",
+        about: "Sobre",
+        work: "Trabalho",
+        contact: "Contato",
+        introduction: "Introdução",
+        overview: "Visão Geral.",
+        about_me: "Sou um desenvolvedor de software qualificado desde os meus 13 anos de idade, com experiência em TypeScript e JavaScript, e expertise em frameworks como React, Node.js e Three.js. Aprendo rápido e colaboro de perto com clientes para criar soluções eficientes, escaláveis e amigáveis ao usuário, que resolvem problemas do mundo real. Vamos trabalhar juntos para dar vida às suas ideias!",
+        web_development: "Desenvolvimento Web",
+        mobile_development: "Desenvolvimento Mobile",
+        react_development: "Desenvolvimento React",
+        desktop_apps_development: "Desenvolvimento Desktop",
+        done_so_far: "O que fiz até hoje",
+        work_experience: "Experiência.",
+        // ifsp
+        ifsp_tools: "PHP, HTML/CSS",
+        ifsp_points_1: "Desenvolvendo aplicações web utilizando PHP e tecnologias relacionadas à web.",
+        ifsp_points_2: "Colaborando com equipes multifuncionais, incluindo desenvolvedores de front-end, back-end e outros, para criar produtos de alta qualidade.",
+        ifsp_points_3: "Participando de revisões de código e fornecendo feedback construtivo para outros desenvolvedores.",
+        // mobile
+        mobile_tools: "Aplicativo Android mobile",
+        mobile_points_1: "Desenvolvimento de um aplicativo Android com mais de 1000 downloads, com funcionalidades de notas.",
+        mobile_points_2: "Conclusão do meu primeiro projeto freelancer, com sucesso na publicação na Play Store.",
+        mobile_points_3: "Adquiri um entendimento aprofundado metodologias e técnicas de codificação ao longo do processo de desenvolvimento (projeto divisor de águas).",
+        // superior
+        superior_tools: "Desenvolvimento React.js",
+        superior_points_1: "Desenvolvimento de novas funcionalidades e telas para o sistema Vantage.",
+        superior_points_2: "Implementação de correções de bugs seguindo diretrizes técnicas.",
+        superior_points_3: "Colaboração próxima com a equipe de desenvolvimento para integração eficiente do código.",
+        superior_points_4: "Também o aprimoramento de sistemas mobile (react-native)",
+        //dentist
+        dentist_tools: "React.js + Node.js",
+        dentist_points_1: "Sistema de gestão clínica odontológica utilizando as melhores ferramentas disponíveis no mercado.",
+        dentist_points_2: "Utilização de servidores AWS e suas complexidades.",
+        dentist_points_3: "Implementação de metodologias de trabalho ágeis com sprints e tarefas bem organizadas entre os membros da equipe.",
+        my_work: "Meu trabalho",
+        projects: "Projetos.",
+        work_text: "Os projetos a seguir mostram minhas habilidades e experiência através exemplos do mundo real do meu trabalho. Cada projeto é brevemente descrito com links para repositórios de código e demonstrações ao vivo nele. Isso reflete meu capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias, e gerenciar projetos de forma eficaz.",
+        // library
+        library_name: "Sistema de empréstimo de livraria",
+        library_description: "Aplicativo web full-stack que permite ao usuário alugar livros para diferentes membros do sistema. Usando React.js, Node.js, Xampp e Sql",
+      // terraverde
+        terraverde_name: "Melhoria do site TerraVerde",
+        terraverde_description: "Criação de um site mais moderno para a marca John Deere, utilizando React, Javascript e Styled-Components",
+        // spotify
+        spotify_name: "Clone do Spofity",
+        spotify_description: "Criando um clone do Spotify da versão 2020 do serviço de streaming de música. Usando principalmente HTML, CSS.",
+        get_in_touch: "ENTRE EM CONTATO",
+        contact_: "Contato.",
+        your_name: "Seu Nome",
+        your_name_placeholder: "Digite seu nome completo",
+        your_email: "Seu email",
+        your_email_placeholder: "Qual é o seu endereço de e-mail?",
+        your_message: "Sua mensagem",
+        your_message_placeholder: "O que você quer falar?",
+        send: "Enviar",  
+        sending: "Enviando...",
+        feedback_react: "React é de longe a tecnologia preferida por sua versatilidade e forte suporte da comunidade, sua eficiência e design intuitivo elevam o processo de desenvolvimento de forma consistente.",
+        feedback_javascript: "JavaScript conquistou meu coração de programação com seu talento dinâmico e excelente usabilidade.",
+        feedback_mobile: "A codificação mobile me atrai pelas suas desafiadoras nuances práticas, a arte envolvida na criação de interfaces elegantes, e a atmosfera colaborativa da comunidade.",
+        favorite_tech: "Minhas tecnologias favoritas",
+        personal: "Pessoal.",
+      },
+  },
+};
+
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'en',
+  interpolation: {
+    escapeValue: false,
+  },
+});
+
+export default i18n;

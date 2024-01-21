@@ -55,7 +55,7 @@ const resources = {
       // note
       note_name: "Note",
       note_description: "Notepad app with +1000 downloads in several countries. With several display features, such as creating a password, favorites and others.",
-      // odonto
+      // odontoHelper
       odonto_name: "OdontoHelper - Dental clinic management software",
       odonto_description: "Freelance project that developed a product, people, customer, scheduling, financial and other management system from scratch.",
       // library

@@ -97,7 +97,7 @@ const Contact = () => {
             </a>
 
             <a
-              href='https://www.linkedin.com/in/pedro-de-luccca003/'
+              href='https://www.linkedin.com/in/pedro-de-luccca003/?locale=en_US'
               target='_blank'
               rel='noopener noreferrer'
               className='text-white'

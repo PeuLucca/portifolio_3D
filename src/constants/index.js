@@ -182,56 +182,120 @@ import {
   
   const projects = [
     {
+      name: "odonto_name",
+      description: "odonto_description",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postman",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient",
+        },
+      ],
+      image: "https://cdn.dribbble.com/userupload/4658677/file/still-3809ed159e89026e6ff2c3672e54ee6c.png",
+      source_code_link: "https://odontohelper.com.br",
+    },
+    {
+      name: "note_name",
+      description: "note_description",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "android",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OOP",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "https://pics.craiyon.com/2023-08-05/c4ea0dd479df4495a22ab47667fe6e06.webp",
+      source_code_link: "https://github.com/PeuLucca/note",
+    },
+    {
+      name: "whatsapp_name",
+      description: "whatsapp_description",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "android",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OOP",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://img.freepik.com/vetores-premium/conceito-de-icone-do-whatsapp_23-2147897840.jpg",
+      source_code_link: "https://github.com/PeuLucca/Whatsapp-Clone",
+    },
+    {
+      name: "listify_name",
+      description: "listify_description",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "noSql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://play-lh.googleusercontent.com/n1m9G0rnP3Tu3lipjUpVxR-7Nz2RTRhD9DLqwCPTASwmHKD-CJbX1uwpEh8N3lDFUKh0=w240-h480-rw",
+      source_code_link: "https://github.com/PeuLucca/listify",
+    },
+    {
       name: "library_name",
       description: "library_description",
       tags: [
         {
-          name: "react.js",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "xaamp_server",
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "sql",
           color: "green-text-gradient",
         },
         {
-          name: "node.js",
+          name: "xampp",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/HOW-DO-YOU-DESIGN-A-LIBRARY-MANAGEMENT-SYSTEM-min.png",
-      source_code_link: "https://github.com/PeuLucca/sistema_biblioteca_fullStack/tree/master/peticon_library",
-    },
-    {
-      name: "terraverde_name",
-      description: "terraverde_description",
-      tags: [
-        {
-          name: "react.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-      ],
-      image: "https://www.terraverdeagro.com.br/sites/terraverdeagro.com.br/files/2021-03/Imagem-site.png",
-      source_code_link: "https://github.com/PeuLucca/terraverde",
-    },
-    {
-      name: "spotify_name",
-      description: "spotify_description",
-      tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-      ],
-      image: "https://macmagazine.com.br/wp-content/uploads/2017/09/08-spotify-safari.png",
-      source_code_link: "https://github.com/PeuLucca/Spotify",
+      image: "https://graduate.northeastern.edu/resources/wp-content/uploads/sites/4/2020/05/iStock-1187114666.jpg",
+      source_code_link: "https://github.com/PeuLucca/sistema_biblioteca_fullStack",
     },
   ];
   

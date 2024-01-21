@@ -46,15 +46,21 @@ const resources = {
       my_work: "My Work",
       projects: "Projects.",
       work_text: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+      // listify
+      listify_name: "Listify - Shopping list app",
+      listify_description: "Mobile application that organizes grocery and other shopping lists and products.",
+      // whatsapp
+      whatsapp_name: "Whatsapp Clone",
+      whatsapp_description: "Mobile clone of the main features of Whatsapp.",
+      // note
+      note_name: "Note",
+      note_description: "Notepad app with +1000 downloads in several countries. With several display features, such as creating a password, favorites and others.",
+      // odonto
+      odonto_name: "OdontoHelper - Dental clinic management software",
+      odonto_description: "Freelance project that developed a product, people, customer, scheduling, financial and other management system from scratch.",
       // library
-      library_name: "Library Loan System",
-      library_description: "Full-stack web application that allows user to rent books to different members of the system. Using React.js, Node.js, Xampp and Sql",
-      // terraverde
-      terraverde_name: "Improvement of TerraVerde website",
-      terraverde_description: "Creating of a more modern website for the John Deere brand, using React, Javascript and Styled-Components",
-      // spotify
-      spotify_name: "Spofity Clone",
-      spotify_description: "Creating a spotify clone of the 2020 version of the music streaming service. Using mainly HTMl, CSS.",
+      library_name: "Library management application",
+      library_description: "Full stack system for managing books ordered by customers.",
       get_in_touch: "GET IN TOUCH",
       contact_: "Contact.",
       your_name: "Your Name",
@@ -117,15 +123,21 @@ const resources = {
         my_work: "Meu trabalho",
         projects: "Projetos.",
         work_text: "Os projetos a seguir mostram minhas habilidades e experiência através exemplos do mundo real do meu trabalho. Cada projeto é brevemente descrito com links para repositórios de código e demonstrações ao vivo nele. Isso reflete meu capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias, e gerenciar projetos de forma eficaz.",
+        // listify
+        listify_name: "Listify - App de Listas para Compras",
+        listify_description: "Aplicativo mobile que organiza as listas e produtos de compras de supermercado e outros.",
+        // whatsapp
+        whatsapp_name: "Clone WhatsApp",
+        whatsapp_description: "Criação do clone do app Whatsapp, com as principais características do original.",
+        // note
+        note_name: "Note - Bloco de Notas",
+        note_description: "Criação de uma app de bloco de notas com +1000 downloads em diversos países. Com diversas funcionalidades de exibição, como criação de senha, favoritar e outros.",
+        // odontoHelper
+        odonto_name: "OdontoHelper - Software de gestão clínica odontológica",
+        odonto_description: "Projeto freelancer que desenvolveu um sistema de gestão de produtos, pessoas, clientes, agendamentos, financeiro e outros do zero.",
         // library
-        library_name: "Sistema de empréstimo de livraria",
-        library_description: "Aplicativo web full-stack que permite ao usuário alugar livros para diferentes membros do sistema. Usando React.js, Node.js, Xampp e Sql",
-      // terraverde
-        terraverde_name: "Melhoria do site TerraVerde",
-        terraverde_description: "Criação de um site mais moderno para a marca John Deere, utilizando React, Javascript e Styled-Components",
-        // spotify
-        spotify_name: "Clone do Spofity",
-        spotify_description: "Criando um clone do Spotify da versão 2020 do serviço de streaming de música. Usando principalmente HTML, CSS.",
+        library_name: "Software de gerenciamento de livros da biblioteca",
+        library_description: "Sistema full stack de gestão de livros pedidos pelos clientes.",
         get_in_touch: "ENTRE EM CONTATO",
         contact_: "Contato.",
         your_name: "Seu Nome",

@@ -113,7 +113,7 @@ import {
   const experiences = [
     {
       title: "ifsp_tools",
-      company_name: "IFSP",
+      company_name: "Instituto Federal de São Paulo",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg/2383px-Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg.png",
       iconBg: "#E6DEDD",
       date: "Jun 2021 - Jul 2022",
@@ -153,11 +153,24 @@ import {
       company_name: "Pedro e Davi de Lucca",
       icon: "https://cdn-icons-png.flaticon.com/512/2751/2751651.png",
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - ",
+      date: "Jan 2023 - April 2024",
       points: [
         "dentist_points_1",
         "dentist_points_2",
         "dentist_points_3",
+      ],
+    },
+    {
+      title: "catagua_tools",
+      company_name: "Cataguá Construtora",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncFzqcJdB0OGl1LW5DiaPVbrq33nOUozTAg&s",
+      iconBg: "white",
+      date: "Mar 2024 - ",
+      points: [
+        "catagua_points_1",
+        "catagua_points_2",
+        "catagua_points_3",
+        "catagua_points_4",
       ],
     },
   ];

@@ -38,11 +38,17 @@ const resources = {
       superior_points_2: "Implementing bug fixes following technical guidelines.",
       superior_points_3: "Collaborating closely with the development team for efficient code integration.",
       superior_points_4: "Also improving mobile systems (react-native)",
-      //dentist
+      // dentist
       dentist_tools: "React.js + Node.js",
       dentist_points_1: "Dental clinic management system using the best tools available in the market.",
       dentist_points_2: "Utilization of AWS servers and its complexities",
       dentist_points_3: "Implementation of agile work methodologies with sprints and well-organized tasks among team members",
+      // catagua
+      catagua_tools: "React + PHP",
+      catagua_points_1: "Driving the upgrade of the company's legacy ERP system to a modern, secure, and scalable platform.",
+      catagua_points_2: "Leading the migration of internal systems to online repositories like GitLab for better version control and collaboration.",
+      catagua_points_3: "Engaging with clients daily to gather requirements and provide technical solutions tailored to their needs.",
+      catagua_points_4: "Collaborating in requirement meetings and ensuring proactive delivery of system improvements.",
       my_work: "My Work",
       projects: "Projects.",
       work_text: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
@@ -115,11 +121,17 @@ const resources = {
         superior_points_2: "Implementação de correções de bugs seguindo diretrizes técnicas.",
         superior_points_3: "Colaboração próxima com a equipe de desenvolvimento para integração eficiente do código.",
         superior_points_4: "Também o aprimoramento de sistemas mobile (react-native)",
-        //dentist
+        // dentista
         dentist_tools: "React.js + Node.js",
         dentist_points_1: "Sistema de gestão clínica odontológica utilizando as melhores ferramentas disponíveis no mercado.",
         dentist_points_2: "Utilização de servidores AWS e suas complexidades.",
         dentist_points_3: "Implementação de metodologias de trabalho ágeis com sprints e tarefas bem organizadas entre os membros da equipe.",
+        // catagua
+        catagua_tools: "React + PHP",
+        catagua_points_1: "Conduzindo o upgrade do sistema ERP legado da empresa para uma plataforma moderna, segura e escalável.",  
+        catagua_points_2: "Liderando a migração dos sistemas internos para repositórios online, como o GitLab, para melhorar o controle de versão e a colaboração.",  
+        catagua_points_3: "Interagindo diariamente com clientes para levantar requisitos e oferecer soluções técnicas personalizadas.",  
+        catagua_points_4: "Participando de reuniões de requisitos e garantindo a entrega proativa de melhorias no sistema.",
         my_work: "Meu trabalho",
         projects: "Projetos.",
         work_text: "Os projetos a seguir mostram minhas habilidades e experiência através exemplos do mundo real do meu trabalho. Cada projeto é brevemente descrito com links para repositórios de código e demonstrações ao vivo nele. Isso reflete meu capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias, e gerenciar projetos de forma eficaz.",

@@ -26,7 +26,7 @@ const ExperienceCard = ({ experience }) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={
-        experience.title === 'dentist_tools'
+        experience.title === 'catagua_tools'
         ? `${experience.date} ${present}`
         : experience.date
       }

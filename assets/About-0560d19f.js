@@ -1,0 +1,6 @@
+import{u as l,j as s,m as n,s as i,a as c}from"./index-ab895930.js";import{T as o}from"./index-c7bd39de.js";import{S as d,t as m,f as x}from"./SectionWrapper-49940c4d.js";const p=({index:e,title:t,icon:a})=>{const{t:r}=l();return s.jsx(o,{className:"xs:w-[250px] w-full",children:s.jsx(n.div,{variants:x("right","spring",.5*e,.75),className:`w-full green-pink-gradient p-[1px] rounded-[20px]\r
+          shadow-card`,children:s.jsxs("div",{options:{max:45,scale:1,speed:450},className:`bg-tertiary rounded-[20px] py-5 px-12\r
+            min-h-[280px] flex justify-evenly items-center flex-col`,children:[s.jsx("img",{src:a,alt:r(t),className:`w-16 \r
+            h-16 object-contain`,loading:"lazy"}),s.jsx("h3",{className:`text-white text-[20px] \r
+              font-bold text-center`,children:r(t)})]})})})},h=()=>{const{t:e}=l();return s.jsxs(s.Fragment,{children:[s.jsxs(n.div,{variants:m(),children:[s.jsx("p",{className:i.sectionSubText,children:e("introduction")}),s.jsx("h2",{className:i.sectionHeadText,children:e("overview")})]}),s.jsx(n.p,{variants:x("","",.1,1),className:`mt-4 text-secondary text-[17px] max-w-3xl\r
+          leading-[30px]`,children:e("about_me")}),s.jsx("div",{className:"mt-20 flex flex-wrap gap-10",children:c.map((t,a)=>s.jsx(p,{index:a,...t},t.title))})]})},v=d(h,"about");export{v as default};

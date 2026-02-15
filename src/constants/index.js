@@ -110,70 +110,6 @@ import {
     },
   ];
   
-  const experiences = [
-    {
-      title: "ifsp_tools",
-      company_name: "Instituto Federal de São Paulo",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg/2383px-Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg.png",
-      iconBg: "#E6DEDD",
-      date: "Jun 2021 - Jul 2022",
-      points: [
-        "ifsp_points_1",
-        "ifsp_points_2",
-        "ifsp_points_3",
-      ],
-    },
-    {
-      title: "mobile_tools",
-      company_name: "Play Store",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png",
-      iconBg: "#4A8CAC",
-      date: "Ago 2021 - Mar 2022",
-      points: [
-        "mobile_points_1",
-        "mobile_points_2",
-        "mobile_points_3",
-      ],
-    },
-    {
-      title: "superior_tools",
-      company_name: "Superior Industries",
-      icon: "https://d1.awsstatic.com/customer-references-case-studies-logos/superior-logo%402x.bd2229864b69dad7e308c4813dd1562fd3076942.png",
-      iconBg: "#0e1111",
-      date: "Jun 2022 - April 2023",
-      points: [
-        "superior_points_1",
-        "superior_points_2",
-        "superior_points_3",
-        "superior_points_4",
-      ],
-    },
-    {
-      title: "dentist_tools",
-      company_name: "Pedro e Davi de Lucca",
-      icon: "https://cdn-icons-png.flaticon.com/512/2751/2751651.png",
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - April 2024",
-      points: [
-        "dentist_points_1",
-        "dentist_points_2",
-        "dentist_points_3",
-      ],
-    },
-    {
-      title: "catagua_tools",
-      company_name: "Cataguá Construtora",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncFzqcJdB0OGl1LW5DiaPVbrq33nOUozTAg&s",
-      iconBg: "white",
-      date: "Mar 2024 - ",
-      points: [
-        "catagua_points_1",
-        "catagua_points_2",
-        "catagua_points_3",
-        "catagua_points_4",
-      ],
-    },
-  ];
   
   const testimonials = [
     {
@@ -312,4 +248,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, testimonials, projects };

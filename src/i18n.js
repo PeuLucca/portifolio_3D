@@ -43,6 +43,12 @@ const resources = {
       dentist_points_1: "Dental clinic management system using the best tools available in the market.",
       dentist_points_2: "Utilization of AWS servers and its complexities",
       dentist_points_3: "Implementation of agile work methodologies with sprints and well-organized tasks among team members",
+      // john deere
+      john_deere_role: "Software Engineer",
+      john_deere_points_1: "Developing enterprise-grade applications using React and TypeScript, focusing on scalable and maintainable solutions.",
+      john_deere_points_2: "Working with SAP CAP (Cloud Application Programming) and CDS (Core Data Services) to build robust backend services and data models.",
+      john_deere_points_3: "Collaborating within a large enterprise environment, integrating with SAP systems and understanding complex business processes.",
+      john_deere_points_4: "Delivering high-quality code following best practices, participating in code reviews, and contributing to technical decisions.",
       // catagua
       catagua_tools: "React + PHP",
       catagua_points_1: "Driving the upgrade of the company's legacy ERP system to a modern, secure, and scalable platform.",
@@ -77,6 +83,8 @@ const resources = {
       your_message_placeholder: "What do you want to say?",
       send: "Send",
       sending: "Sending...",
+      message_sent_success: "Message sent successfully! I'll get back to you soon.",
+      message_sent_error: "Error sending message. Please try again or contact me directly via email.",
       feedback_react: "React is by far preferred technology for its versatility and strong community support, its efficiency and intuitive design elevate the development process consistently.",
       feedback_javascript: "JavaScript has won my programming heart with its dynamic flair and great usability.",
       feedback_mobile: "Mobile coding appeals to me for its practical challenges, the artistry involved in creating sleek interfaces, and the supportive community atmosphere.",
@@ -126,6 +134,12 @@ const resources = {
         dentist_points_1: "Sistema de gestão clínica odontológica utilizando as melhores ferramentas disponíveis no mercado.",
         dentist_points_2: "Utilização de servidores AWS e suas complexidades.",
         dentist_points_3: "Implementação de metodologias de trabalho ágeis com sprints e tarefas bem organizadas entre os membros da equipe.",
+        // john deere
+        john_deere_role: "Engenheiro de Software",
+        john_deere_points_1: "Desenvolvendo aplicações de nível empresarial usando React e TypeScript, focando em soluções escaláveis e manuteníveis.",
+        john_deere_points_2: "Trabalhando com SAP CAP (Cloud Application Programming) e CDS (Core Data Services) para construir serviços backend robustos e modelos de dados.",
+        john_deere_points_3: "Colaborando em um ambiente empresarial de grande porte, integrando com sistemas SAP e compreendendo processos de negócio complexos.",
+        john_deere_points_4: "Entregando código de alta qualidade seguindo melhores práticas, participando de revisões de código e contribuindo para decisões técnicas.",
         // catagua
         catagua_tools: "React + PHP",
         catagua_points_1: "Conduzindo o upgrade do sistema ERP legado da empresa para uma plataforma moderna, segura e escalável.",  
@@ -160,6 +174,8 @@ const resources = {
         your_message_placeholder: "O que você quer falar?",
         send: "Enviar",  
         sending: "Enviando...",
+        message_sent_success: "Mensagem enviada com sucesso! Entrarei em contato em breve.",
+        message_sent_error: "Erro ao enviar mensagem. Por favor, tente novamente ou entre em contato diretamente pelo email.",
         feedback_react: "React é de longe a tecnologia preferida por sua versatilidade e forte suporte da comunidade, sua eficiência e design intuitivo elevam o processo de desenvolvimento de forma consistente.",
         feedback_javascript: "JavaScript conquistou meu coração de programação com seu talento dinâmico e excelente usabilidade.",
         feedback_mobile: "A codificação mobile me atrai pelas suas desafiadoras nuances práticas, a arte envolvida na criação de interfaces elegantes, e a atmosfera colaborativa da comunidade.",

@@ -1,0 +1,100 @@
+/**
+ * Experience data structure
+ * All experiences are ordered from most recent to oldest
+ */
+
+export const experiences = [
+  {
+    id: 'john-deere',
+    titleKey: 'john_deere_role',
+    companyName: 'John Deere',
+    icon: 'https://cdn.freebiesupply.com/logos/large/2x/john-deere-6-logo-black-and-white.png',
+    iconBg: 'white',
+    date: 'Jun 2025',
+    pointsKeys: [
+      'john_deere_points_1',
+      'john_deere_points_2',
+      'john_deere_points_3',
+      'john_deere_points_4',
+    ],
+    technologies: ['React', 'TypeScript', 'SAP CAP', 'SAP CDS'],
+    isPresent: true,
+  },
+  {
+    id: 'catagua',
+    titleKey: 'catagua_tools',
+    companyName: 'Cataguá Construtora',
+    icon: 'https://play-lh.googleusercontent.com/NJSLF9A0wo0uLEuSvuWJjFlUSy4FJZuyBfOblzBmuCXhVqJ_VeYDQGgR6mo7oaFjg5z5',
+    iconBg: 'white',
+    date: 'Mar 2024',
+    pointsKeys: [
+      'catagua_points_1',
+      'catagua_points_2',
+      'catagua_points_3',
+      'catagua_points_4',
+    ],
+    technologies: ['React', 'PHP'],
+    isPresent: false,
+  },
+  {
+    id: 'dentist',
+    titleKey: 'dentist_tools',
+    companyName: 'Pedro e Davi de Lucca',
+    icon: 'https://cdn-icons-png.flaticon.com/512/2751/2751651.png',
+    iconBg: '#E6DEDD',
+    date: 'Jan 2023 - Apr 2024',
+    pointsKeys: [
+      'dentist_points_1',
+      'dentist_points_2',
+      'dentist_points_3',
+    ],
+    technologies: ['React', 'Node.js'],
+    isPresent: false,
+  },
+  {
+    id: 'superior',
+    titleKey: 'superior_tools',
+    companyName: 'Superior Industries',
+    icon: 'https://d1.awsstatic.com/customer-references-case-studies-logos/superior-logo%402x.bd2229864b69dad7e308c4813dd1562fd3076942.png',
+    iconBg: '#0e1111',
+    date: 'Jun 2022 - Apr 2023',
+    pointsKeys: [
+      'superior_points_1',
+      'superior_points_2',
+      'superior_points_3',
+      'superior_points_4',
+    ],
+    technologies: ['React', 'React Native'],
+    isPresent: false,
+  },
+  {
+    id: 'mobile',
+    titleKey: 'mobile_tools',
+    companyName: 'Play Store',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png',
+    iconBg: '#4A8CAC',
+    date: 'Aug 2021 - Mar 2022',
+    pointsKeys: [
+      'mobile_points_1',
+      'mobile_points_2',
+      'mobile_points_3',
+    ],
+    technologies: ['Android', 'Java'],
+    isPresent: false,
+  },
+  {
+    id: 'ifsp',
+    titleKey: 'ifsp_tools',
+    companyName: 'Instituto Federal de São Paulo',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg/2383px-Instituto_Federal_de_S%C3%A3o_Paulo_-_Marca_Vertical_2015.svg.png',
+    iconBg: '#E6DEDD',
+    date: 'Jun 2021 - Jul 2022',
+    pointsKeys: [
+      'ifsp_points_1',
+      'ifsp_points_2',
+      'ifsp_points_3',
+    ],
+    technologies: ['PHP', 'HTML', 'CSS'],
+    isPresent: false,
+  },
+];

@@ -5,38 +5,18 @@ const Loader = () => {
   const { progress } = useProgress();
 
   return (
-    <Html>
-      <div className="canvas-load">
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100%',
-          }}
-        >
-          <div
-            style={{
-              width: '40px',
-              height: '40px',
-              border: '4px solid #f1f1f1',
-              borderRadius: '50%',
-              position: 'relative',
-            }}
-          >
-            <div
-              style={{
-                width: '100%',
-                height: '100%',
-                border: '4px solid transparent',
-                borderTopColor: '#3498db',
-                borderRadius: '50%',
-                animation: 'spin 1s linear infinite',
-              }}
-            ></div>
-          </div>
+    <Html center>
+      <div className="flex flex-col items-center justify-center gap-4">
+        <div className="relative w-16 h-16">
+          <div className="absolute inset-0 border-4 border-[#915EFF]/20 rounded-full"></div>
+          <div 
+            className="absolute inset-0 border-4 border-transparent border-t-[#915EFF] rounded-full animate-spin"
+            style={{ animation: 'spin 1s linear infinite' }}
+          ></div>
         </div>
-        {progress.toFixed(2)}%
+        <p className="text-white text-sm font-medium">
+          {Math.round(progress)}%
+        </p>
       </div>
     </Html>
   );

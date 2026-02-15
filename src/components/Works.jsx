@@ -32,21 +32,24 @@ const ProjectCard = ({
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
-            alt='project_image'
+            alt={`${t(name)} project preview`}
             className='w-full h-full object-cover rounded-2xl'
+            loading="lazy"
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
+            <button
+              type="button"
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              aria-label={`View ${t(name)} source code`}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform focus:outline-none focus:ring-2 focus:ring-[#915EFF]'
             >
               <img
                 src={github}
-                alt='source code'
+                alt='GitHub icon'
                 className='w-1/2 h-1/2 object-contain'
               />
-            </div>
+            </button>
           </div>
         </div>
 
